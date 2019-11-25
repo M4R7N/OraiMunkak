@@ -1,0 +1,9 @@
+.bgimage {
+	background-image: url("DSC_4848.JPG");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top;
+	background-size: cover;
+	height: 100vh;
+	
+}

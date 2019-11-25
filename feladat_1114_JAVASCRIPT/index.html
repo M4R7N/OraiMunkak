@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="../MAIN SITE/css/file.css">
+<script src="index.js"></script>
+<title>Itt aztán vannak jávaszkriptek</title>
+</head>
+<body>
+<div class="main">
+	<div class="container">
+		<h1 id="first">Játssz a gombjaimmal!</h1>
+		<input type="button" value="Katt ide!" 
+		onclick="document.getElementById('first').innerHTML = 'Dagadt vagy.'">
+		<input type="button" value="Betűméret változtatás!!" 
+		onclick="document.getElementById('first').style.fontSize='20px'">
+		<input type="button" value="Betűméret changer!!" 
+		onclick="anyadat();">
+		<input type="button" value="Dagadt akarok lenni." 
+		onclick="document.getElementById('first').style.fontWeight='bold'">
+		<input type="button" value="Hadd bújjak el!" 
+		onclick="document.getElementById('first').style.display='none'">
+		<input type="button" value="Itt vagyooook" 
+		onclick="document.getElementById('first').style.display='block'">
+		<br>
+		<input type="button" value="Dátum és idő" 
+		onclick="document.getElementById('second').innerHTML = Date()">
+		<h2 id="second"></h2>
+		<br>
+		<script>var a="12"; var b = 5; document.writeIn(a+b+"<br>");</script>
+	</div>
+</div>
+</body>
+</html>
